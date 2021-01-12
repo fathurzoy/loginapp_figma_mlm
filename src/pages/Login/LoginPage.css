@@ -1,0 +1,38 @@
+
+.login_page{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(240.34deg, #E235C2 0%, #8D51C2 73.28%);
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+
+.bulet1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.bulet2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.bulet3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.logo{
+  width: 200px;
+}

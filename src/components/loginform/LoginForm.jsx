@@ -6,7 +6,7 @@ import bulet4 from "../../assets/bulet4.svg"
 import bulet5 from "../../assets/bulet5.svg"
 import bulet6 from "../../assets/bulet6.svg"
 import logo from '../../assets/logo.png'
-
+import {Link} from 'react-router-dom'
 
 const LoginForm = ()=>{
   return (
@@ -21,8 +21,10 @@ const LoginForm = ()=>{
           <img src={bulet6} alt="gelombang pertama" className="bulet6"/>
           <img src={logo} alt="gelombang pertama" className="logo"/>
           </div>
-          <h1>Welcome Page</h1>
-          <p>Sign in to <br/> continue access</p>
+          <h3 className="welcomeText">WELCOME PAGE</h3>
+
+          <h3 className="loginText">SIGN IN <br /> TO CONTINUE ACCESS</h3>
+
 
         </div>
 
@@ -43,13 +45,15 @@ const LoginForm = ()=>{
           <div className="socmed_login">
             <h3>Or Login With</h3>
             <button className="g_login">
-            <i class="fab fa-google-plus-g"></i>
+            <i className="fab fa-google-plus-g"></i>
               Sign In With Google
             </button>
             <button className="f_login">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
               Sign In With Facebook
             </button>
+
+            <Link to="/register">Register</Link>
           </div>
         </div>
 

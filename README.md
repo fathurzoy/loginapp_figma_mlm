@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Selamat datang
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Perkenalkan aplikasi saya ini bernama
+**Login App figma**
 
-## Available Scripts
+![ini gambar aplikasinya](https://picsum.photos/seed/150/300)
 
-In the project directory, you can run:
+Untuk clone gitnya silakan ke 
+[Link Berikut](https://jvalleyschool.com)
 
-### `yarn start`
+Dengan syntax sebagai berikut :
+```
+git clone https://github.com/jemblonganvalley/loginapp_figma
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Untuk membuat sebuah component, teman teman bisa buat sebuah file dan masukan syntax berikut :
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```javascript
+const Navbar = () =>{
+  return(
+    <div className='container'>
+      <h1>Hello</h1>
+    </div>
+  )
+}
 
-### `yarn test`
+export default Navbar
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```python
+import random from random
 
-### `yarn build`
+nama = ['fathurzoy', 'ozil', 'ojan']
+pilihan = random.choice(nama)
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Fitur dari aplikasi saya adalah :
+1. Login by google
+2. Login by facebook
+3. Email Login
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Masukan untuk kami :
+- [x] Fitur masih kurang
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+Aplikasi atau web yang menggunakan md notepad
+(https://stackedit.io/app#)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aplikasi atau web untuk menupload image 
+(https://id.imgbb.com/)
